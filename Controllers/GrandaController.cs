@@ -13,7 +13,7 @@ namespace kolejny.Controllers
         private readonly IManagment mag;
         public GrandaController()
         {
-
+            mag = new Calosc();
         }
         public GrandaController(IManagment mag)
         {

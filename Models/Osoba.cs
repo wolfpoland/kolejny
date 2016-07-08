@@ -5,7 +5,8 @@ using System.Web;
 
 namespace kolejny.Models
 {
-    public class Osoba
+    [Serializable]
+    public class Osoba 
     {
         public Osoba(int id, string imie,string nazwisko)
         {
